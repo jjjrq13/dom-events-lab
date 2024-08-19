@@ -1,13 +1,11 @@
 /*-------------------------------- Constants --------------------------------*/
 const displayElement = document.querySelector('.display');
-console.dir(displayElement);
 
 const numberElements = document.querySelectorAll('.number');
 
 const operationElement = document.querySelectorAll('.operator');
 
 const equalsElement = document.querySelector('.equals');
-
 
 /*-------------------------------- Variables --------------------------------*/
 
@@ -124,7 +122,7 @@ function dealWithFloats() {
     }
 }
 
-//Checks and removes as zeros first number 
+//Checks and removes as zeros first number
 function noZeroFirst() {
     if (firstNumber.charAt(0) === '0') {
         firstNumber = firstNumber.slice(1);
